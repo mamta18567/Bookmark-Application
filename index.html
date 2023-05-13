@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>BookMark Application</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="first">
+          <div class="top">
+            <h2 class="bookmark">Add Bookmark</h2>
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+
+          <div class="middle">
+            <div class="item">
+              <h3>Website Name</h3>
+              <input type="text" class="website-name"/>
+            </div>
+            <div class="item">
+              <h3>Website URL</h3>
+              <input type="url" autocomplete="off" class="website-url"/>
+            </div>
+          </div>
+          <div class="button">
+            <button class="save">Save</button>
+          </div>
+        </div>
+
+          <table>
+            <thead>
+              <tr>
+                <td class="permanent flex-2">Image</td>
+                <td class="temporary flex-2">Img</td>
+                <td class="permanent">Website</td>
+                <td class="temporary">Web</td>
+                <td class="permanent">Check</td>
+                <td class="temporary">Check</td>
+                <td class="permanent">Options</td>
+                <td class="temporary">Opt</td>
+              </tr>
+            </thead>
+            <tbody class="table">
+              
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/3cdd73f131.js" crossorigin="anonymous"></script>
+    <script src="https://chancejs.com/chance.min.js"></script>
+</body>
+</html>
